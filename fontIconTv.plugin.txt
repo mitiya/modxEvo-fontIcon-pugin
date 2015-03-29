@@ -1,0 +1,21 @@
+// fontIconTv plugin v0.1
+// The following System Events should be checked:
+// [X] OnManagerPageInit
+// 
+// $TvId is id of TV is used to select icons.
+
+$TvId = 4 ;
+$fontCssFile = "assets/templates/inngas/moonfont.css";
+$pluginCssFile = "assets/plugins/fontIconTv/fontIconTv.css";
+
+
+$fontCssFile = MODX_BASE_URL . $fontCssFile;
+$pluginCssFile = MODX_BASE_URL . $pluginCssFile;
+
+$str = '<script language="javascript" type="text/javascript"">var Tvid = '.$TvId.', fontCssFile = "'.$fontCssFile.'", pluginCssFile = "'.$pluginCssFile.'";</script>' . "\n";
+echo($str);
+
+$jsname = 'loader';
+$str = '<script language="javascript" type="text/javascript" src="' . MODX_BASE_URL . 'assets/plugins/fontIconTv/'.$jsname.'.js"></script>' . "\n";
+echo($str);
+

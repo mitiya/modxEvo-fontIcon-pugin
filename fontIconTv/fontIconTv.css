@@ -1,0 +1,17 @@
+.tvIconsInputs {
+	margin-bottom: 30px;
+}
+
+.tvIcons {
+	display: inline-block;
+	margin-left: 10px;
+	width: 30px;
+}
+
+.fontIconViewer::before,.tvIcons::before {
+    display: block;
+    font-size: 22px;
+    margin-left: -30px;
+    margin-top: 3px;
+    position: absolute;
+}
