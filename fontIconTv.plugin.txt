@@ -3,6 +3,7 @@
 // [X] OnManagerPageInit
 // 
 // $TvId is id of TV is used to select icons.
+// $regEx is regular expressions for parse $fontCssFile
 
 $TvId = 4 ;
 $regEx = "/(?:icon-)+(\w|-)*/ig";
