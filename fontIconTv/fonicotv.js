@@ -15,7 +15,7 @@ jQuery(document).ready(function () {
 		jQuery.get(fontCssFile, function (data) {
 			var out = "";
 			str = data;
-			re = /(?:icon-)+(\w|-)*/ig
+			re = regEx
 				icons = str.match(re)
 
 				for (var i = 0; i < icons.length; i++) {

@@ -5,9 +5,9 @@
 // $TvId is id of TV is used to select icons.
 
 $TvId = 4 ;
+$regEx = "/(?:icon-)+(\w|-)*/ig";
 $fontCssFile = "assets/templates/inngas/moonfont.css";
 $pluginCssFile = "assets/plugins/fontIconTv/fontIconTv.css";
-
 
 $fontCssFile = MODX_BASE_URL . $fontCssFile;
 $pluginCssFile = MODX_BASE_URL . $pluginCssFile;
